@@ -43,10 +43,10 @@
 
 #fotoLp{
     position: absolute;
-    right: 50px;
-    top: 50px;
-    border-radius: 30px;
-    
+    width: 510px;
+    height: 605px;
+    left: 876px;
+    top: 781px;    
 }
 
 #textoFoto{
