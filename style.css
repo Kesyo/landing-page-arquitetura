@@ -1,0 +1,157 @@
+*{
+    font-family: "inter";
+    margin: 0%;
+}
+
+.parteInicial{
+    background-color: #303030;
+    color: #F9F9F9;
+    padding-left: 50px;
+    width: 1440px;
+    height: 475px;
+}
+
+#tituloPrincipal{
+    position: absolute;
+    width: 1024px;
+    height: 72px;
+    left: 62px;
+    top: 206px;
+    font-size: 60px;
+}
+
+#textoSecundario{
+    position: absolute;
+    width: 1024px;
+    height: 28px;
+    left: 62px;
+    top: 298px;
+    font-size: 20px;
+
+}
+
+.menuInformacional{
+    background-color: #F9F9F9;
+    width: 1340px;
+    height: 200px;
+    color: black;
+    display: grid;
+    grid-auto-flow: column;
+    padding-left: 150px;
+}
+
+.tituloInformacional{
+    padding-top: 50px;
+}
+
+.numeroInfo{
+    font-size: 40px;
+}
+
+.secaoFoto{
+    width: 1490px;
+    height: 475px;
+}
+
+#tituloTextoFoto{
+    position: absolute;
+    width: 735px;
+    height: 161px;
+    left: 77px;
+    top: 940px;
+    margin-left: 50px;
+}
+  
+#fotoLp{
+    position: absolute;
+    width: 510px;
+    height: 605px;
+    left: 876px;
+    top: 781px;
+}
+
+#textoFoto{
+    position: absolute;
+    width: 735px;
+    height: 161px;
+    left: 77px;
+    top: 1003px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+}
+
+.formulario{
+    position: absolute;
+    width: 1490px;
+    height: 538px;
+    top: 1478px;
+    background-color: #303030;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#textoFormulario{
+    color: #FFFFFF;
+    position: absolute;
+    width: 944px;
+    height: 48px;
+    left: 248px;
+    top: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+input{
+    position: absolute;
+    background-color: #FFFFFF;
+    width: 468px;
+    height: 72px;
+    left: 466px;
+    top: 150px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    padding-left: 20px;
+    border: 0px;
+}
+
+#inputEmail{
+    position: absolute;
+    width: 468px;
+    height: 72px;
+    left: 466px;
+    top: 280px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    padding-left: 20px;
+    border: 0px;
+}
+
+button{
+    position: absolute;
+    background-color: #C07212;
+    font-weight: 600;
+    color: #FFFFFF;
+    font-size: 22px;
+    width: 286px;
+    height: 74px;
+    left: 577px;
+    top: 400px;
+    border-radius: 10px;
+    border: 0px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #ff8c00;
+    color: white;
+    transform: translateY(-5px);
+    box-shadow: 0px 15px 20px #05103044;
+    transition-duration: 0.5s;
+}
+
